@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/schemas/chain.schema.json",
+  "name": "RSK",
+  "logoURI": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/chains/30/assets/rbtc.png",
+  "chainId": 30,
+  "rpcUrls": [
+    "https://rsk-live.sovryn.app/rpc",
+    "https://mainnet.sovryn.app/rpc"
+  ],
+  "nativeCurrency": {
+    "symbol": "RBTC",
+    "decimals": 18
+  },
+  "blockExplorerUrls": ["https://explorer.rsk.co"]
+}

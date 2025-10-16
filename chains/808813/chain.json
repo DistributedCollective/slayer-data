@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/schemas/chain.schema.json",
+  "name": "BOB Sepolia",
+  "logoURI": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/chains/808813/assets/bob.svg",
+  "chainId": 30,
+  "rpcUrls": ["https://bob-sepolia.rpc.gobob.xyz"],
+  "nativeCurrency": {
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "blockExplorerUrls": ["https://bob-sepolia.explorer.gobob.xyz"]
+}
