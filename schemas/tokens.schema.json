@@ -5,6 +5,12 @@
   "description": "Object with a single `items` array containing token definitions.",
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "const": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/schemas/tokens.schema.json",
+      "description": "Schema version URL."
+    },
     "items": {
       "type": "array",
       "minItems": 1,

@@ -5,6 +5,12 @@
   "description": "Schema defining a blockchain network configuration for RPC connection and metadata.",
   "type": "object",
   "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri",
+      "const": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/schemas/chain.schema.json",
+      "description": "Schema version URL."
+    },
     "name": {
       "type": "string",
       "description": "Human-readable name of the blockchain network, e.g. 'RSK'."
