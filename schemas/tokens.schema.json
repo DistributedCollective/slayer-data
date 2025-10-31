@@ -52,6 +52,10 @@
           "type": "string",
           "format": "uri",
           "description": "Public URL to a token logo image."
+        },
+        "isNative": {
+          "type": "boolean",
+          "description": "Indicates if the token is the native currency of the chain."
         }
       },
       "required": ["name", "address", "symbol", "decimals", "logoURI"],
