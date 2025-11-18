@@ -70,6 +70,16 @@
           "type": "string",
           "pattern": "^0x[0-9a-fA-F]{40}$",
           "description": "Treasury address"
+        },
+        "subgraphURI": {
+          "type": "string",
+          "format": "uri",
+          "description": "Public URL to the pool's subgraph endpoint."
+        },
+        "priceFeedUrl": {
+          "type": "string",
+          "format": "uri",
+          "description": "Public URL to the pool's price feed endpoint."
         }
       },
       "required": [
@@ -80,7 +90,9 @@
         "poolAddressesProvider",
         "variableDebtEth",
         "weth",
-        "treasury"
+        "treasury",
+        "subgraphURI",
+        "priceFeedUrl"
       ],
       "additionalProperties": false
     }

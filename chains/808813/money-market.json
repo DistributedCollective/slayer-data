@@ -10,7 +10,9 @@
       "poolAddressesProvider": "0xe8b907899c42ae2fBa09010f18338d6634B9Ab05",
       "variableDebtEth": "0xd83f668055d983B2dD5B0338b713bc51dD4a55fF",
       "weth": "0x327E7E4A9e054ecC67dFa9E3Af158347116321Bf",
-      "treasury": "0xe5dc2b9044Ef3044fa5aa16050239668Eda73713"
+      "treasury": "0xe5dc2b9044Ef3044fa5aa16050239668Eda73713",
+      "subgraphURI": "https://bob-mm.test.sovryn.app/subgraphs/name/DistributedCollective/sov-protocol-subgraphs",
+      "priceFeedUrl": "https://bob-mm-cache.test.sovryn.app/data/rates-history"
     }
   ]
 }
