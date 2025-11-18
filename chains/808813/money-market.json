@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/schemas/money-market.schema.json",
+  "items": [
+    {
+      "name": "Main Pool",
+      "logoURI": "https://raw.githubusercontent.com/DistributedCollective/slayer-data/main/chains/808813/assets/bob.svg",
+      "address": "0xd7308f0626a8e35b645Af0b7fA26Aba9CbD7e6A7",
+      "wethGateway": "0x247074C89f5559c18ba34552D0C6C8995c763a0F",
+      "uiPoolDataProvider": "0x72Bbd487e81dF47829c64B71871A6C23228dC4f9",
+      "poolAddressesProvider": "0xe8b907899c42ae2fBa09010f18338d6634B9Ab05",
+      "variableDebtEth": "0xd83f668055d983B2dD5B0338b713bc51dD4a55fF",
+      "weth": "0x327E7E4A9e054ecC67dFa9E3Af158347116321Bf",
+      "treasury": "0xe5dc2b9044Ef3044fa5aa16050239668Eda73713"
+    }
+  ]
+}
