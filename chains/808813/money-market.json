@@ -13,7 +13,7 @@
       "weth": "0x327E7E4A9e054ecC67dFa9E3Af158347116321Bf",
       "treasury": "0xe5dc2b9044Ef3044fa5aa16050239668Eda73713",
       "subgraphURI": "https://bob-mm.test.sovryn.app/subgraphs/name/DistributedCollective/sov-protocol-subgraphs",
-      "priceFeedUrl": "https://bob-mm-cache.test.sovryn.app/data/rates-history"
+      "priceFeedURI": "https://bob-mm-cache.test.sovryn.app/data/rates-history"
     }
   ]
 }

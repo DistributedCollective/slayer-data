@@ -81,7 +81,7 @@
           "format": "uri",
           "description": "Public URL to the pool's subgraph endpoint."
         },
-        "priceFeedUrl": {
+        "priceFeedURI": {
           "type": "string",
           "format": "uri",
           "description": "Public URL to the pool's price feed endpoint."
